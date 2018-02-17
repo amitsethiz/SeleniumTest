@@ -44,9 +44,10 @@ public class CommonMethods{
 	
 	public static String takeScreenshot(WebDriver driver, String fileName, String directoryPath) throws IOException {
 		String currentDate = generateDataTime();
-		fileName = fileName + currentDate +".png	`";		
+		fileName = fileName + currentDate +".png";		
 //		String directoryPath = "C:\\JavaSelenium\\eclipseworkspace\\SeleniumProject\\Screenshots\\Firefox\\";
 		File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		System.out.println(directoryPath+fileName);
 		FileUtils.copyFile(screenshotFile, new File(directoryPath+fileName));
 		String destination = directoryPath+fileName;
 		return destination;		
