@@ -1,0 +1,18 @@
+{
+	"Capabilities":
+				[
+					{
+						"browserName": "chrome",
+						"maxInstances": 1
+					},
+					{
+						"browserName": "firefox",
+						"maxInstances": 1
+					},
+				],
+					"port": 5555,
+					"hubport": 4444,
+					"hubhost": "192.168.0.104",
+
+
+}

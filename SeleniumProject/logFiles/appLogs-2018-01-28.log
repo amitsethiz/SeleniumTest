@@ -1,0 +1,9 @@
+10:50:38:007  INFO TestClass -Chrome Browser Instantiated
+10:50:43:212  INFO TestClass -Website Opened
+10:57:18:772  INFO TestClass -Chrome Browser Instantiated
+10:57:18:777  INFO TestClass -Website Opened
+11:01:12:002  INFO TestClass -Chrome Browser Opened using JavascriptExecutor
+11:02:16:060  INFO TestClass -Chrome Browser Opened using JavascriptExecutor
+11:02:16:093  INFO TestClass -Website Opened
+11:02:41:896  INFO TestClass -Chrome Browser Opened using JavascriptExecutor
+11:02:42:627  INFO TestClass -Website Opened
