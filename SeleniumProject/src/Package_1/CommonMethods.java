@@ -57,8 +57,8 @@ public class CommonMethods{
 		if (browsertType.equalsIgnoreCase("Firefox")) {
 //			System.setProperty("webdriver.gecko.driver", "C:\\JavaSelenium\\eclipseworkspace\\SeleniumProject\\geckodriver.exe");
 			baseUrl = "https://letskodeit.teachable.com/p/practice"; //"https://www.expedia.com/";
-//			nodeURL = "http://192.168.0.103:5555/wd/hub";
-			nodeURL = "http://localhost:4444/wd/hub";
+			nodeURL = "http://192.168.0.103:5555/wd/hub";
+//			nodeURL = "http://localhost:4444/wd/hub";
 			DesiredCapabilities caps = DesiredCapabilities.firefox();
 			caps.setBrowserName("firefox");	
 			caps.setPlatform(Platform.WINDOWS);
@@ -75,8 +75,8 @@ public class CommonMethods{
 		if (browsertType.equalsIgnoreCase("chrome")) {
 //			System.setProperty("webdriver.chrome.driver", "C:\\JavaSelenium\\eclipseworkspace\\SeleniumProject\\chromedriver.exe");
 			baseUrl = "https://letskodeit.teachable.com/p/practice"; //"https://www.expedia.com/";
-//			nodeURL = "http://192.168.0.103:5555/wd/hub";
-			nodeURL = "http://localhost:4444/wd/hub";
+			nodeURL = "http://192.168.0.103:5555/wd/hub";
+//			nodeURL = "http://localhost:4444/wd/hub";
 			DesiredCapabilities caps = DesiredCapabilities.chrome();
 			caps.setBrowserName("chrome");	
 			caps.setPlatform(Platform.WINDOWS);
