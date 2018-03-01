@@ -13,4 +13,10 @@
 			<class name="Package_1.SeleniumGrid_ParallelTest_2" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="Test3">
+		<parameter name="browserType" value="android" />
+		<classes>
+			<class name="Package_1.SeleniumGrid_ParallelTest_2" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

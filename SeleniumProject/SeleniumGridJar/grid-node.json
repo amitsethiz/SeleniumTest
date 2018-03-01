@@ -10,9 +10,9 @@
 				"maxInstances": 1
 			}
 		],
-			"port":5555,
-			"hubPort":4444,
-			"hubHost":"192.168.0.104",
+			"port":6666,
+			"hubPort":5555,
+			"hubHost":"192.168.0.103",
 			"registerCycle":10000,
 			"register":true,
 			"timeout":0,
