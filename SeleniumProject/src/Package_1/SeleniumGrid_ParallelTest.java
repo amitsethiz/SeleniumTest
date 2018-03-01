@@ -32,13 +32,13 @@ public class SeleniumGrid_ParallelTest {
 	
 	@BeforeClass
 	@Parameters({"browserType"})
-	public void beforeClass(String browsertType) throws MalformedURLException {
+	public void beforeClass(String browserType) throws MalformedURLException {
 		String currentDate = CommonMethods.generateDataTime();
 		searchPage = new SearchPageFactory(driver);
 		directoryPath = "C:\\Users\\Amit Sethi\\git\\SeleniumTest\\SeleniumProject\\Screenshots\\Firefox\\";
 		reports = new ExtentReports("C:\\Users\\Amit Sethi\\git\\SeleniumTest\\SeleniumProject\\Screenshots\\Firefox\\firefoxTest_"+currentDate+".html");
 		test = reports.startTest("Module Name");
-		driver = CommonMethods.WebDriverinit(browsertType);
+		driver = CommonMethods.WebDriverinit(browserType);
 		searchPage = new SearchPageFactory(driver);
 	}
 
